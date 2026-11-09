@@ -1,0 +1,35 @@
+Loading demo data...
+
+--- 3 registered patient(s) ---
+Patient ID : PT-001
+Age        : 2
+District   : Western Area Urban
+Vaccines   :
+   - BCG: 1/1 doses (COMPLETE)
+   - Polio: 2/4 doses (next due 2024-07-27)
+
+Patient ID : PT-002
+Age        : 1
+District   : Bo
+Vaccines   :
+   - Measles: 1/2 doses (next due 2025-07-09)
+
+Patient ID : PT-003
+Age        : 34
+District   : Kenema
+Vaccines   :
+   - COVID-19: 2/2 doses (COMPLETE)
+
+--- Vaccination summary ---
+Total patients: 3
+BCG           started: 1   fully vaccinated: 1
+Polio         started: 1   fully vaccinated: 0
+Pentavalent   started: 0   fully vaccinated: 0
+Measles       started: 1   fully vaccinated: 0
+Yellow Fever  started: 0   fully vaccinated: 0
+COVID-19      started: 1   fully vaccinated: 1
+
+Is PT-001 fully vaccinated against BCG? True
+Is PT-001 fully vaccinated against Polio? False
+Total Patient objects created: 3
+Is 150 a valid age? False
